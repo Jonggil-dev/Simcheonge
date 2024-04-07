@@ -1,163 +1,194 @@
-# 심청이 - 심플한 청년의 이익(Simple Cheongnyeon Economy)
+# 🚀 심청이 프로젝트
+
+### 1. 프로젝트 기간
+
+- 2024.02.19(월) ~ 2024.04.05(금)
+
+### 2. 팀원 소개
+
+- 김지수 : 팀장, 프론트엔드, 디자인, 위젯 개발(유저 정보 관리, 커뮤니티 등)
+- 서준하 : 프론트엔드, 디자인,  위젯 개발(챗봇, 정책, 뉴스 등)
+- 김민진 : 백엔드, 커뮤니티 기능, 북마크 기능
+- 박다민 : 백엔드, ERD 설계, 챗봇 개발(생성형 AI) 
+- 정종길 : 백엔드, 인프라(CI/CD), Spring Security(+ JJWT), 뉴스 크롤링
+- 주혜련 : 백엔드, ERD 설계, 정책 서비스(검색/필터 등), 관리자 페이지 구현
 
 
-### 프로젝트 진행 기간
 
-2024.02.19(월)~2024.04.05(금)
+# 🔍 프로젝트 소개
+
+### 1. 서비스 요약
+
+- "심"플하게 "청"년들이 "이"득을 챙길 수 있도록, 정책과 금융 정보를 제공하는 모바일 어플리케이션 
+
+### 2. 기획 의도
+
+- 많은 청년들의 정책의 존재를 알지 못하거나, 본인이 대상이 되는지를 모르는 경우가 많음
+- 스마트폰을 통해 청년 정책을 한 눈에 확인하기 쉽게 제공하여 어플리케이션 접근성을 향상
+
+### 3. 기술스택 및 개발 환경
+
+![기술스택 및 개발환경](C:\Users\정종길\Desktop\심청이 사진\기술스택 및 개발환경.png)
 
 
-## 개요
 
-- 청년들을 위한 많은 정책과 혜택들이 있지만 그 정보를 몰라서 이용하지 못하는 청년들을 위해 제작
-- 나눠져 있는 각 지원 정책과 청년에게 필요한 정보를 한 앱에서 최대한 '간편하게' 제공
-- STT 기반의 챗봇기능을 메인으로 구현하여, 접근성을 향상
-- 재테크를 준비함에 있어서 기본적인 경제 및 사회 관련 용어 / 개념을 제공
+# **💡 주요 기능**
 
+### 1. 챗봇을 이용한 정책 정보 검색
 
-## **💡 주요 기능**
-
-### 챗봇을 이용한 정책 검색
-
-- 생성형 AI로 구현한 챗봇을 통해 쉽게 정책을 검색할 수 있게 지원
+- 생성형 AI로 구현한 챗봇을 통해 쉽게 청년 정책 관련 질의응답 지원
 - STT지원으로 편리성 증대
 
-### 검색 필터를 이용한 정책 검색
+### 2. 검색 필터를 이용한 정책 검색
 
-- 지역/학력/취업 상태/특화 분야/관심 분야/신청 기간 필터를 통해 원하는 정책을 검색할 수 있게 지원
+- 키워드 입력을 통한 정책 검색 가능
+- 추가 지역/학력/취업 상태 등 필터를 통해 조건별 정책 검색 가능
 - STT지원으로 편리성 증대
 
-### 자동 정책 업데이트 및 관리 시스템
+### 3. 정책 정보 관리 시스템 구축
 
-- Spring Scheduler로 새로운 정책 데이터를 DB에 자동 추가
-- 관리자가 관리자 페이지를 통해 가공할 수 있는 시스템 구축
+- Spring Scheduler를 이용해 새로운 정책 데이터를 주기적으로 저장/제공
+- 관리자 페이지를 통해 정책을 가공할 수 있는 시스템 구축
 
-### 오늘의 뉴스 요약
+### 4. 오늘의 뉴스 요약
 
-- 오늘의 주요 뉴스를 ChatGPT로 요약하여 간단하게 소개
+- 정치/경제/금융/IT 카테고리 네이버 헤드라인 뉴스를 ChatGPT로 요약하여 제공
 
-### 경제 용어 소개
+### 5. 경제 용어 소개
 
-- 기본적인 경제 관련 용어를 제공
-
-## 📺실행화면
-
-<table>
- <tr>
-  <th colspan="2">챗봇으로 정책 검색하기</th>
- </tr>
- <tr>
-  <td><img src="/uploads/136b52b099d69435b11128f902583fdb/KakaoTalk_20240403_141330828.jpg"></td>
-  <td><img src="/uploads/136b52b099d69435b11128f902583fdb/KakaoTalk_20240403_141330828.jpg"></td>
- </tr>
-</table>
-<table>
- <tr>
-  <th colspan="2">검색 필터로 정책 검색하기</th>
- </tr>
- <tr>
-  <td><img src="/uploads/864bf65ca6a6664469ffdba6371bd4c6/KakaoTalk_20240403_141332545.jpg"></td>
-  <td><img src="/uploads/f7d01a5c04ad58171b535122e3d65f73/KakaoTalk_20240403_141331916.jpg"></td>
- </tr>
- <tr align="center">
-  <td>검색 화면</td>
-  <td>필터 선택</td>
- </tr>
-</table>
-
-<table>
- <tr>
-  <th colspan="2">경제 용어 소개</th>
- </tr>
- <tr>
-  <td><img src="/uploads/2f01617643420861304fdd8164202d6b/KakaoTalk_20240403_141329742.jpg"></td>
-  <td><img src="/uploads/a842628d2d621465de934f345b16ebb4/KakaoTalk_20240403_141328118.jpg"></td>
- </tr>
- <tr align="center">
-  <td>랜덤 경제 용어</td>
-  <td>용어 설명</td>
- </tr>
-</table>
-
-<table>
- <tr>
-  <th colspan="2">오늘의 주요 뉴스</th>
- </tr>
- <tr>
-  <td><img src="/uploads/ec2753996d9237ae9f7b6ce1b04f793c/KakaoTalk_20240403_151336619.jpg"></td>
-  <td><img src="/uploads/0df0a96ef8c149b0db5379f2c447bcfb/KakaoTalk_20240403_151335802.jpg"></td>
- </tr>
- <tr align="center">
-  <td>뉴스 요약</td>
-  <td>뉴스 전문</td>
- </tr>
-</table>
-
-<table>
- <tr>
-  <th>정책 관리 시스템</th>
- </tr>
- <tr>
-  <td><img src="/uploads/b5802ee2c8b8ce86ae356c54cb972e61/화면_캡처_2024-04-03_150206.png"></td>
- <tr align="center">
-  <td>정책 목록</td>
- </tr>
-  <tr>
-  <td><img src="/uploads/0169847f2f50b3b36e737425e24c085c/화면_캡처_2024-04-03_150249.png"></td>
- <tr align="center">
-  <td>정책 관리</td>
- </tr>
-</table>
-
-## Usage
-
-
-<aside>
-💡 exec폴더의 포팅메뉴얼을 따라 진행
-
-</aside>
-
-### 개발환경
-
-![화면_캡처_2024-04-03_153131](/uploads/559c486ade7fe5cf0c08de73ff7fb3c8/화면_캡처_2024-04-03_153131.png)
-
-
-## Service Architecture
-![9to6_architecture2](/uploads/638ae8cfe1124f9f2fe48e28d2c4732c/9to6_architecture2.png)
-
-
-## **💬 ERD**
-
-
-![E102__3_](/uploads/354c0931b95fe240ad31e96d082a4672/E102__3_.png)
+- 새로고침 시 기본적인 경제 관련 용어와 설명을 랜덤으로 출력
 
 
 
-## Team Members
+# 📺 심청이 어플리케이션 화면
 
-<table>
-<tr>
-<th colspan="2">FrontEnd</th>
-<th colspan="4">BackEnd</th>
-<th colspan="2">Cooperation</th>
-</tr>
-<tr align = "center">
-<td>
-<a href=""/>김지수</a>
-</td>
-<td>
-<a href=""/>서준하</a>
-</td>
-<td>
-<a href=""/>김민진</a>
-</td>
-<td>
-<a href=""/>박다민</a>
-</td>
-<td>
-<a href=""/>정종길</a>
-</td>
-<td>
-<a href="https://github.com/object1997428"/>주혜련</a>
-</td>
-<td><a href="https://lab.ssafy.com/s10-fintech-finance-sub2/S10P22E102"/>GitLab</a></td>
-<td><a href="https://ssafy.atlassian.net/projects/S10P22E102"/>Jira</a></td>
+### 1. 챗봇
+
+![Readme챗봇](C:\Users\정종길\Desktop\심청이 사진\Readme챗봇.jpg)
+
+
+
+### 2. 정책 검색/조회
+
+![Readme정책검색](C:\Users\정종길\Desktop\심청이 사진\Readme정책검색.jpg)
+
+### 3. 커뮤니티
+
+![Readme커뮤니티](C:\Users\정종길\Desktop\심청이 사진\Readme커뮤니티.jpg)
+
+
+
+### 4. 경제 용어
+
+![Readme경제용어](C:\Users\정종길\Desktop\심청이 사진\Readme경제용어.jpg)
+
+
+
+### 5. 뉴스
+
+![Readme뉴스](C:\Users\정종길\Desktop\심청이 사진\Readme뉴스.jpg)
+
+
+
+
+
+# 🔧 설계
+
+### 1. 아키텍처 설계
+
+![9to6_architecture2](C:\Users\정종길\Desktop\심청이 사진\9to6_architecture2.png)
+
+### 2. DB 설계(ERD)
+
+![ERD](C:\Users\정종길\Desktop\심청이 사진\ERD.png)
+
+
+
+# 📃 명세서
+
+### 1. 기능 명세서
+
+https://funky-fennel-a33.notion.site/64ecb04a25b8457b813714e9d175e8ed?v=4a1ab317009f40b792bee294961dbfb4&pvs=4
+
+### 2. API 명세서
+
+https://funky-fennel-a33.notion.site/API-6fd3f726edd648a8a34c07e0493ca3cb?pvs=4
+
+
+
+# 👨‍👩‍👧 Convention
+
+### 1. Git Commit Convention
+
+| 커밋 유형        | 의미                                                         |      |
+| ---------------- | ------------------------------------------------------------ | ---- |
+| Feat             | 기능 개발                                                    |      |
+| Fix              | 버그 수정                                                    |      |
+| Docs             | 문서 수정                                                    |      |
+| Style            | 코드 formatting, 세미콜론 누락, 코드 자체의 변경이 없는 경우 |      |
+| Refactor         | 코드 리팩토링                                                |      |
+| Test             | 테스트 코드, 리팩토링 테스트 코드 추가                       |      |
+| Chore            | 패키지 매니저 수정, 그 외 기타 수정 ex) .gitignore           |      |
+| Design           | CSS 등 사용자 UI 디자인 변경                                 |      |
+| Comment          | 필요한 주석 추가 및 변경                                     |      |
+| Rename           | 파일 또는 폴더 명을 수정하거나 옮기는 작업만인 경우          |      |
+| Remove           | 파일을 삭제하는 작업만 수행한 경우                           |      |
+| !BREAKING CHANGE | 커다란 API 변경의 경우                                       |      |
+| !HOTFIX          | 급하게 치명적인 버그를 고쳐야 하는 경우                      |      |
+
+### 2. Git Branch Convention
+
+- master
+
+  : 실제 배포할 product의 브랜치
+
+  - develop 브랜치로부터 Merge Request(MR)을 통해 소스코드 수정
+
+- develop
+
+  : 개발 중 개발된 기능이 모두 merge되는 브랜치
+
+  - 직접 push 금지
+  - feature 브랜치로부터 Merge Request(MR) 작성자 이외 1명 이상 코드 리뷰 후 merge 수행
+
+- hotfix
+
+  : 배포된 product에서 급한 버그 수정이 필요할 때 사용하는 일회성 브랜치
+
+  - master에서 hotfix/…로 checkout
+  - 버그 수정 후 master와 develop에 각각 merge 한 후 삭제
+
+- feature
+
+  : 기능 개발 단위로 사용하는 일회성 브랜치
+
+  - develop에서 새로 checkout하여 feature브랜치 생성
+
+  - develop으로 MR 요청 승인 후 삭제
+
+  - feature 브랜치 네이밍은 기능과 연결된 Jira 이슈번호를 포함
+
+    ```
+    BE-Feat/S10P22E102-{이슈넘버}
+    FE-Fix/S10P22E102-{이슈넘버}
+    
+    예시)
+    FE-Feat/S10P22E102-100
+    ```
+
+### 3. Jira Convention
+
+- 협업 및 일정, 업무 관리를 위해 Jira를 이용 
+
+- 매주 월요일 오전 주 단위 계획을 짜고 스프린트를 일주일 단위로 진행.
+
+- 이슈 유형 규칙
+
+  - Epic : 큰 단위의 업무 덩어리, 문장 맨 앞 대괄호로 담당 영역 표기 (ex) [BE] ERD 설계
+
+  - Story : 에픽 하위작업으로 수행해야 하는 개발 외 작업, 문장 맨 앞 대괄호로 이름 표기 (ex) [정종길] 팀 회의
+  - Task : 에픽 하위작업으로 수행해야 하는 개발 작업, 문장 맨 앞 대괄호로 이름 표기  (ex) [정종길] Jenkins Pipeline 구축
+
+
+
+### 
