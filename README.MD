@@ -99,14 +99,9 @@
 # 📃 명세서
 
 ### 1. 기능 명세서
-
-https://funky-fennel-a33.notion.site/64ecb04a25b8457b813714e9d175e8ed?v=4a1ab317009f40b792bee294961dbfb4&pvs=4
-
+- [바로가기](https://funky-fennel-a33.notion.site/64ecb04a25b8457b813714e9d175e8ed?v=4a1ab317009f40b792bee294961dbfb4&pvs=4)
 ### 2. API 명세서
-
-https://funky-fennel-a33.notion.site/API-6fd3f726edd648a8a34c07e0493ca3cb?pvs=4
-
-
+- [바로가기](https://funky-fennel-a33.notion.site/API-6fd3f726edd648a8a34c07e0493ca3cb?pvs=4)
 
 # 👨‍👩‍👧 Convention
 
