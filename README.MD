@@ -62,25 +62,26 @@
 
 # 📺 심청이 어플리케이션 화면
 
-### 1. 챗봇
+### 1. 메인 화면
+![Readme 메인화면](https://github.com/Jonggil-dev/Simcheonge/assets/155353613/6cae248e-0a8b-42bd-81b6-b28a60ddb098)
+
+### 2. 챗봇
 
 ![Readme챗봇](https://github.com/Jonggil-dev/Simcheonge/assets/155353613/dbd7357e-cd5d-4665-9de7-08991c1e8b7a)
 
-### 2. 정책 검색/조회
+### 3. 정책 검색/조회
 
 ![Readme정책검색](https://github.com/Jonggil-dev/Simcheonge/assets/155353613/58306a00-07f3-4a86-a46b-64524156b671)
 
-### 3. 커뮤니티
+### 4. 커뮤니티
 
 ![Readme커뮤니티](https://github.com/Jonggil-dev/Simcheonge/assets/155353613/e1b1ddf9-ac1b-4ed5-b657-8e24afe6af85)
 
-
-
-### 4. 경제 용어
+### 5. 경제 용어
 
 ![Readme경제용어](https://github.com/Jonggil-dev/Simcheonge/assets/155353613/21ca7fd0-ec04-4d5a-9cfd-f815d64da3cd)
 
-### 5. 뉴스
+### 6. 뉴스
 
 ![Readme뉴스](https://github.com/Jonggil-dev/Simcheonge/assets/155353613/8e509beb-2ee0-44cb-a3d6-3ce2f19763b0)
 
