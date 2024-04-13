@@ -63,7 +63,7 @@
 # 📺 심청이 어플리케이션 화면
 
 ### 1. 메인 화면
-![Readme 메인화면](https://github.com/Jonggil-dev/Simcheonge/assets/155353613/6cae248e-0a8b-42bd-81b6-b28a60ddb098)
+![Readme 메인화면](https://github.com/Jonggil-dev/Simcheonge/assets/155353613/2918501d-6472-4417-b1f0-974493d80678)
 
 ### 2. 챗봇
 
